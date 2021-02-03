@@ -1,3 +1,5 @@
+// cached nodes
+
 const youChose = document.querySelector('#youChose');
 const compChose = document.querySelector('#compChose');
 const gameResults = document.querySelector('#gameResults');
@@ -8,7 +10,7 @@ const getUserChoice = userInput => {
   if(userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' || userInput === 'bomb') {
     return userInput;
   } else {
-    console.log("Error!! Pick rock, paper or scissors only!!");
+     return 'Error!! Paper, Rock or Scissors only!'
   }
 
 }
