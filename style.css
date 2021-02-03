@@ -13,3 +13,14 @@ body {
     text-align: center;
     margin: auto;
 }
+
+@media only screen and (max-width: 768px) {
+    .contentBox {
+        width: 60%;
+        height: 400px;
+        background-color: #ca5c21;
+        border: 5px solid #000000;
+        text-align: center;
+        margin: auto;
+    }
+}
