@@ -23,4 +23,13 @@ body {
         text-align: center;
         margin: auto;
     }
+    
+    input {
+        font-size: 16px;
+    }
+    
+    button {
+        margin-top: 5px;
+        padding: 1px 20px 1px 20px;
+    }
 }
