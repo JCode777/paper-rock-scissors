@@ -3,7 +3,7 @@
 const youChose = document.querySelector('#youChose');
 const compChose = document.querySelector('#compChose');
 const gameResults = document.querySelector('#gameResults');
-
+const submitButton = document.getElementById('submitUserChoice');
 
 const getUserChoice = userInput => {
   userInput = usersChoice.value.toLowerCase();
@@ -67,4 +67,6 @@ const playGame = () => {
   compChose.textContent = 'The computer threw: ' + computerChoice;
   gameResults.textContent = determineWinner(userChoice, computerChoice);
 }
+
+submitButton.addEventListener('click', playGame);
 
